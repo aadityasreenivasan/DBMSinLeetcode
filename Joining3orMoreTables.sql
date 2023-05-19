@@ -22,19 +22,19 @@ insert into marks values(1050, 10, 53, 'pass');
 
 create table details(address_city varchar(20), email_ID varchar(20), school_id int, accomplishments varchar(50));
 
-insert into details values('Banglore',  'jsingh@geeks.com', 
+insert into details values('Banglore',  'aadityasreeni@gmail.com', 
                                 1020, 'ACM ICPC selected');
-insert into details values('Hyderabad', 'praveen@geeks.com', 
+insert into details values('Hyderabad', 'praveen@gmail.com', 
                                 1030, 'Geek of the month');
-insert into details values('Delhi',     'rithvik@geeks.com', 
+insert into details values('Delhi',     'rithvik@gmail.com', 
                                     1012, 'IOI finalist');
-insert into details values('Chennai',   'om@geeks.com', 
+insert into details values('Chennai',   'om@gmail.com', 
                                  1111, 'Geek of the year');
-insert into details values('Banglore', ' suraj@geeks.com',
+insert into details values('Banglore', ' suraj@gmail.com',
                                  1008, 'IMO finalist');
-insert into details values('Mumbai',    'sasukeh@geeks.com',
+insert into details values('Mumbai',    'sasukeh@gmail.com',
                                   2211, 'Made a robot');
-insert into details values('Ahmedabad', 'itachi@geeks.com',
+insert into details values('Ahmedabad', 'itachi@gmail.com',
                                1172, 'Code Jam finalist');
-insert into details values('Jaipur',    'kumar@geeks.com',
+insert into details values('Jaipur',    'kumar@gmail.com',
                                    1972, 'KVPY finalist');
