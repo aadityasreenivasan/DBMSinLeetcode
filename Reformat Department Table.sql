@@ -1,3 +1,15 @@
+/*
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| id          | int     |
+| revenue     | int     |
+| month       | varchar |
++-------------+---------+
+(id, month) is the primary key of this table.
+The table has information about the revenue of each department per month.
+The month has values in ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"].
+*/
 SELECT Department.id,
 sum(if(month='Jan',revenue,null)) as Jan_Revenue,
 sum(if(month='Feb',revenue,null)) as Feb_Revenue,
