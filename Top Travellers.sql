@@ -1,0 +1,1 @@
+SELECT Users.name, IFNULL(SUM(Rides.distance), 0) as travelled_distance FROM Users LEFT JOIN Rides ON Users.id = Rides.user_id
