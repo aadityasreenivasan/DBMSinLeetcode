@@ -24,6 +24,9 @@ empId is the primary key column for this table.
 empId is a foreign key to empId from the Employee table.
 Each row of this table contains the id of an employee and their respective bonus.
 
+Write an SQL query to report the name and bonus amount of each employee with a bonus less than 1000.
+
+Return the result table in any order.
 */
 select e.name, b.bonus from employee e left join bonus b on e.empId=b.empId 
 where b.bonus is null or b.bonus<1000;
