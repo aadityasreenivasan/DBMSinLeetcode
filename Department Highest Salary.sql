@@ -24,6 +24,9 @@ Table: Department
 id is the primary key column for this table. It is guaranteed that department name is not NULL.
 Each row of this table indicates the ID of a department and its name.
 
+Write an SQL query to find employees who have the highest salary in each of the departments.
+
+Return the result table in any order.
 */
 SELECT
     Department.name AS 'Department',
