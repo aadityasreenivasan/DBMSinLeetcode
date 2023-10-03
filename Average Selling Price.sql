@@ -25,6 +25,10 @@ Table: UnitsSold
 +---------------+---------+
 This table may contain duplicate rows.
 Each row of this table indicates the date, units, and product_id of each product sold. 
+
+Write a solution to find the average selling price for each product. average_price should be rounded to 2 decimal places.
+
+Return the result table in any order.
 */
 
 SELECT p.product_id, IFNULL(ROUND(SUM(p.price*u.units)/SUM(u.units), 2), 0) AS average_price
